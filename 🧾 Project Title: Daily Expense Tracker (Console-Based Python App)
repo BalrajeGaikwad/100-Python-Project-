@@ -1,0 +1,27 @@
+📄 Project Description:
+The Daily Expense Tracker is a simple command-line Python application that allows users to track daily spending by adding expense entries with a description, amount, and the current date. It also enables users to view all their recorded expenses and see a total of the amount spent.
+
+All data is stored in a local text file (expenses.txt), making it lightweight and easy to use for personal budgeting and small-scale financial tracking.
+
+✅ Key Features:
+📌 Add Expense:
+Allows the user to input a description and amount. The app automatically records the current date and saves the entry to a file.
+
+📄 View Expenses:
+Displays all previously recorded expenses and calculates the total amount spent.
+
+📂 Persistent Storage:
+All expense entries are saved in a expenses.txt file for future access.
+
+🔒 Error Handling:
+Handles missing file scenarios (e.g., if expenses.txt doesn’t exist).
+
+🧰 Technologies Used:
+🐍 Python 3
+
+📁 File Handling (open, readlines, write)
+
+📅 datetime module for capturing the date
+
+🖥️ Console I/O for user interaction
+
